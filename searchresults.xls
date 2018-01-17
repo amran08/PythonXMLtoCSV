@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>NetSuite</Author>
+<LastAuthor>NetSuite</LastAuthor>
+<Company>NetSuite</Company>
+</DocumentProperties>
+<Styles>
+<Style ss:ID="company">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="error">
+<Alignment ss:Horizontal="Center"/>
+<Interior ss:Color="#d04040" ss:Pattern="Solid"/>
+<Font ss:Bold="1"/>
+</Style> <Style ss:ID="header">
+<Alignment ss:Horizontal="Center"/>
+<Font ss:Size="7" ss:Bold="1"/>
+<Interior ss:Color="#d0d0d0" ss:Pattern="Solid"/>
+</Style> <Style ss:ID="Default" ss:Name="Normal">
+<Alignment ss:Vertical="Bottom"/>
+<Borders/>
+<Font ss:FontName="Arial" ss:Size="8"/>
+<Interior/>
+<NumberFormat/>
+<Protection/>
+</Style>
+<Style ss:ID="s__TIMEOFDAY"><NumberFormat ss:Format="Medium Time"/></Style>
+<Style ss:ID="s__DATETIME"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATETIMETZ"><NumberFormat ss:Format="General Date"/></Style>
+<Style ss:ID="s__DATE"><NumberFormat ss:Format="Short Date"/>
+</Style><Style ss:ID="s__text"></Style><Style ss:ID="s__currency"><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__percent"><NumberFormat ss:Format="Percent"/></Style>
+<Style ss:ID="s1_b_text"><Alignment ss:Indent="1"/><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s_b_text"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/></Style>
+<Style ss:ID="s2__text"><Alignment ss:Indent="2"/></Style>
+<Style ss:ID="s_b_currency"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s_currency_nosymbol"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" /><NumberFormat ss:Format="#,##0.00_);[Red]\(#,##0.00\)"/></Style>
+<Style ss:ID="s1__text"><Alignment ss:Indent="1"/></Style>
+<Style ss:ID="s_b_currency_X"><Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#000000" ss:Bold="1"/><Interior ss:Color="#f0e0e0" ss:Pattern="Solid"/><NumberFormat ss:Format="Currency"/></Style>
+<Style ss:ID="s__currency_en_US"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;$&quot;#,##0.00_);(&quot;$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_GB"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;£&quot;#,##0.00_);(&quot;£&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_en_CA"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;Can$&quot;#,##0.00_);(&quot;Can$&quot;#,##0.00)"/></Style>
+<Style ss:ID="s__currency_fr_FR_EURO"><Alignment ss:Vertical="Center" ss:Horizontal="Right"/><NumberFormat ss:Format="&quot;€&quot;#,##0.00_);(&quot;€&quot;#,##0.00)"/></Style>
+</Styles>
+<Worksheet ss:Name="ATSforDealersExcelScheduledRep">
+<Table><Row>
+<Cell ss:StyleID="header"><Data ss:Type="String">Part #</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">UPC Code</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Description</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Avail</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Year</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Dealer</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">MAP</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">MSRP</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">On PO</Data></Cell>
+<Cell ss:StyleID="header"><Data ss:Type="String">Discontinued</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00031300</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014284</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; TEAM NAVY</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00032200</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014291</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; CYCLOPS BLK/RED</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">31</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00032400</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014307</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; CYCLOPS RED/YEL</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">36</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00032500</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014314</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; CYCLOPS YEL/PUR</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">8</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00035200</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014338</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; PISTON BLACK</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">14</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00035300</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202014345</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; PISTON BLUE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+<Row><Cell ss:StyleID="s__text"><Data ss:Type="String">00040700</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">887202044113</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">SE3 VISOR; TEAM ORANGE</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">17</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">17M</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">18.88</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="Number">40</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">No</Data></Cell>
+<Cell ss:StyleID="s__text"><Data ss:Type="String">Yes</Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
