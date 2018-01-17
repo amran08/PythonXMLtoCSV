@@ -22,7 +22,7 @@ def read_excel_xml(path):
 workbooks = read_excel_xml(source)
 
 print(workbooks);
-thefile = open('test.txt', 'w')
+thefile = open('test.csv', 'w')
 for wbook in workbooks:
     for wsheet in wbook:
         for row in wsheet:
